@@ -1,10 +1,180 @@
 <html>
-<title>
-标题
-</title>
+<head>
+   <title>网站标题</title>
+   <style type="text/css">
+   *{
+   margin:0px;
+   padding:0px;
+   }
+   Ul{list-style:none;}
+   A{color:#000;font-size:13px;text-decoration:none;}
+   A:hover{text-decoration:underline;}
+   #header,#banner,#nav,#main,#footer{
+    margin:0px auto;
+    width:1000px;
+    }
+    #banner{
+    height:268px;
+    background:url(banner.jpg) no-repeat;
+    }
+    #banner p{
+    color:#FFF;
+    padding-top:80px;
+    padding-left:80px;
+    font-size:14px;
+    font-weight:bold;
+    }
+    #banner p span{
+    color:#FF0;
+    font-size:18px;
+    }
+    #nav{
+    height:25px;
+    background:#000;
+    }
+    #nav ul{
+    list-style:none;
+    padding-left:10px;
+    }
+    #nav ul li{
+    color:#fff;
+    float:left;
+    line-height:25px;
+    }
+    #nav ul li a{
+    color:#FFF;
+    font-size:13px;
+    padding:0px 15px;
+    text-decoration:none;
+    }
+    #nav ul li a:hover{
+    color:#FF0;}
+     
+   #footer{
+    clear:both;}
+   #footer{
+   
+   width:1000px;}
+
+
+
+
+
+
+    #main{
+	clear:both;
+	padding:20px 0px;
+	}
+    #main .sider{
+	width:370px;
+	margin:0px 20px;
+	float:left;
+	}
+    #main .sider h4,#main .container h4{
+	background:url(libiao.jpg) no-repeat;
+	text-indent:2em;
+	font-size:14px;
+	padding-bottom:5px;
+	}
+    #main .sider ul{
+	list-style:none;
+	}
+    #main .sider ul li {
+	height:24px;
+	line-height:24px;
+	border-bottom:1px dotted #ccc;
+	}
+    #main .sider ul li a{
+	font-size:13px;
+	text-decoration:none;
+	color:#666;
+	}
+    #main .sider ul li a:hover{
+	color:#F00;
+	}
+    #main .sider ul li span{
+		font-size:13px;
+			color:#666;
+	padding-left:60px;
+	}
+    #main .container{
+	width:570px;
+	margin:0px 20px 0px 0px;
+	float:left;
+	}
+    #main .container dl{
+	width:260px;
+	float:left;
+	}
+     #main .container dl dt{
+	float:left;
+	}
+     #main .container dl dd{
+	font-size:13px;
+	color:#333;
+	text-indent:1em;
+	height:22px;
+	} 
+   </style>
+</head>
 <body>
-  <p>A POEM</p>
+    <div id="header">
+    <img src="top.jpg"/>
+    </div>
+
+    <div id="banner">
+    <p>
+    力争行业<span>典</span>范<br/>
+    STRIVE FOR A MODDEL 
+    </p>
+    </div>
+   
+    <div id="nav">
+      <ul>
+        <li><a href="#">divcss8.com首页</a>|</li>
+        <li><a href="#">关于捷福</a>|</li>
+        <li><a href="#">产品信息</a>|</li>
+        <li><a href="#">新闻动态</a>|</li>
+        <li><a href="#">人力资源</a>|</li>
+        <li><a href="#">公司首页</a>|</li>
+      </ul>
+    </div>
+    <div id="main">
+    <div class="sider">
+    	<h4>公司新闻</h4>
+        <ul>
+        <li><a href="#">新闻标题1</a><span>2015-5-10</span></li>
+        <li><a href="#">新闻标题2</a><span>2015-5-10</span></li>
+        <li><a href="#">新闻标题3</a><span>2015-5-10</span></li>
+        <li><a href="#">新闻标题4</a><span>2015-5-10</span></li> 
+        </ul>
+    </div>
+    <div class="container">
+    <h4>公司产品</h4>
+     <dl>
+     	<dt><img src="chanpin.jpg"/></dt>
+        <dd>HD32B68S</dd>
+        <dd>所属类别: CRT外壳</dd>
+        <dd>名称： HD32B68S </dd>
+        <dd>浏览数： 52 次 </dd>
+     </dl>
+     <dl>
+     	<dt><img src="chanpin.jpg"/></dt>
+        <dd>HD32B68S</dd>
+        <dd>所属类别: CRT外壳</dd>
+        <dd>名称： HD32B68S </dd>
+        <dd>浏览数： 52 次 </dd>
+     </dl>
+     </div>
+     </div>
+     
+     
+      <div id="footer">
+      <ul>
+        <li><a href="#">作者：css</li>
+        <li><a href="#">教程 www.divcss8.com</li>
+      </ul>
+    </div>
+     
 </body>
-
-
 </html>
