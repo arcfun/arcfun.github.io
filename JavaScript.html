@@ -1,0 +1,45 @@
+<html>
+<head>
+   <style type"text/css">
+   </style>
+ 	  
+   <script type="text/javascript">
+   var x=2;
+   function OutPutLocaVar()
+{
+var x=3;
+document.write("局部变量:"+x);
+}
+function OutPutGloVar()
+{
+document.write("全局变量:"+x);
+}
+</script>
+<script language="javascript">
+for(var i=0;i<10;i++)
+{
+   for(var z=10;z>i;z--)
+   {
+     
+   }
+}
+</script>
+
+</head>
+<body>
+ <script type="text/javascript">
+ OutPutGloVar();
+document.write("<br>");
+OutPutLocaVar();
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
