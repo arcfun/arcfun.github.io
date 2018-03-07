@@ -23,7 +23,7 @@ a{
 	color:#459ae9;
 }
 .middle{
-	background:url(image/41.jpg) repeat-x;
+	background:url(41.jpg) repeat-x;
 	height:460px;
 	clear:both;
 }
@@ -46,7 +46,7 @@ a{
 	border:1px solid #ddd;
 }
 .middle .login .loginContent .it i{
-	background:url(image/6.jpg);
+	background:url(6.jpg);
 	width:16px;
 	height:18px;
 	display:inline-block;
