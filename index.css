@@ -1,0 +1,89 @@
+body{
+	margin:0;
+	font-size:13px; 
+}
+
+.top{
+	height:60px;
+	border-top:3px solid #44b549;
+	line-height: 60px;
+}
+.container{
+	width:1000px;
+	margin:0 auto;
+}
+.logo{
+	float:left;
+
+}
+.help{
+	float:right;
+}
+a{
+	color:#459ae9;
+}
+.middle{
+	background:url(image/41.jpg) repeat-x;
+	height:460px;
+	clear:both;
+}
+.middle .login{
+	width:400px;
+	height:300px;
+	background:white;
+	margin-top: 25px;
+	float:right;
+}
+.middle .login .loginContent{
+	width:300px;
+	height:240px;
+	margin:0 auto;
+	margin-top: 30px;
+}
+.middle .login .loginContent .it{
+	width:278px;
+	height:40px;
+	border:1px solid #ddd;
+}
+.middle .login .loginContent .it i{
+	background:url(image/6.jpg);
+	width:16px;
+	height:18px;
+	display:inline-block;
+	float:left;
+	margin-top:11px;
+	margin-left:10px;
+}
+	
+.middle .login .loginContent .it .txt{
+	font-size:17px;
+	margin-left:10px;
+	color:#a3a3a3;
+	width:220px;
+	height:35px;
+	font-family:"楷体";
+}
+.middle .login .loginContent .it i.pwd{
+	background-position:0 -28px;
+}
+.remember{
+	margin-top:10px;
+
+}
+.flt{
+	float:left;
+}
+.flr{
+	float:right;
+}
+.btn{
+	width:150px;
+	height:30px;
+	border:0px;
+	line-height:30px;
+	color:white;
+	background-color:#44b549;
+}
+.loginbtn{
+	margin-top:30px; 
+}
