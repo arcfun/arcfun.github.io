@@ -1,3 +1,21 @@
+@CHARSET "UTF-8";
+.line{
+	border-bottom:2px solid #ddd;
+}
+.icon-spin{
+	animation:first 2s infinite linear;
+	-moz-animation:first 2s infinite linear;
+	-o-animation:first 2s infinite linear;
+	-webkit-animation:first 2s infinite linear;
+}
+@keyframes first{
+	0%{
+		transform:rotate(0deg);
+	}
+	100%{
+		transform:rotate(360deg);
+	}
+}
 body{
 	margin:0;
 	font-size:13px; 
