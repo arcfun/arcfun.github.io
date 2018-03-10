@@ -1,6 +1,9 @@
 @CHARSET "UTF-8";
 .line{
 	border-bottom:2px solid #ddd;
+	
+border-radius:25px;
+
 }
 .icon-spin{
 	animation:first 2s infinite linear;
