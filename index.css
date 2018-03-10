@@ -42,8 +42,9 @@ a{
 }
 .middle{
 	background:url(41.jpg) repeat-x;
-	height:360px;
+	height:460px;
 	clear:both;
+	border-radius:10px;
 }
 .middle .login{
 	width:400px;
